@@ -1,6 +1,6 @@
 (function() {
   var defaultTitle = 'Doge | V4';
-  var defaultIcon = '/assets/img/doge.jpg';
+  var defaultIcon = '/assets/img/artin-high.gif';
 
   var storedTitle = localStorage.getItem('tabTitle');
   var storedIcon = localStorage.getItem('tabIcon');
@@ -23,7 +23,7 @@
 
 // Clickoff Check
 var defaultTitle = 'Doge | V4';
-var defaultIcon = '/assets/img/doge.jpg';
+var defaultIcon = '/assets/img/artin-high.gif';
 var storedTitle = localStorage.getItem('tabTitle');
 var storedIcon = localStorage.getItem('tabIcon');
 var icon = document.querySelector('link[rel="icon"]');
@@ -31,8 +31,8 @@ var newTitle = storedTitle || defaultTitle;
 var newIcon = storedIcon || defaultIcon;
 var clickoff = localStorage.getItem('clickoffCloak');
 
-if (storedIcon === '/assets/img/doge.jpg' || storedIcon === null || storedIcon === '') {
-    localStorage.setItem('tabIcon', '/assets/img/doge.jpg');
+if (storedIcon === '/assets/img/artin-high.gif' || storedIcon === null || storedIcon === '') {
+    localStorage.setItem('tabIcon', '/assets/img/artin-high.gif');
 }
 
 var storedIcon = localStorage.getItem('tabIcon');
